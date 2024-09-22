@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
             // Validate inputs
             if (firstName.isEmpty() || lastName.isEmpty() || dateOfBirth.isEmpty()) {
-                Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please fill all fields", Toast.LENGTH_LONG).show()
             } else {
                 // Parse and calculate age
                 val sdf = SimpleDateFormat("MM/dd/yyyy", Locale.US)
@@ -43,10 +43,10 @@ class MainActivity : AppCompatActivity() {
                     val birthDate = sdf.parse(dateOfBirth)
                     if (birthDate != null) {
                         val age = calculateAge(birthDate)
-                        Toast.makeText(this, "Age: $age years", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Age: $age years", Toast.LENGTH_LONG).show()
                     }
                 } catch (e: ParseException) {
-                    Toast.makeText(this, "Invalid Date Format", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Invalid Date Format", Toast.LENGTH_LONG).show()
                 }
             }
         }

@@ -1,35 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center">
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/firstName"
+    <!-- Heading with larger font size, centered, and using Montserrat -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age Calculator"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <!-- First Name Input Field with rounded borders -->
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="First Name"
-        android:inputType="textPersonName" />
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp">
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/lastName"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Last Name Input Field with rounded borders -->
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Last Name"
-        android:inputType="textPersonName" />
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        android:layout_marginTop="16dp">
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/dateOfBirth"
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Date of Birth Input Field with rounded borders -->
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Date of Birth (MM/dd/yyyy)"
-        android:inputType="date" />
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        android:layout_marginTop="16dp">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dateOfBirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Calculate Button with rounded borders and lowercase text -->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/calculateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calculate Age"
-        android:layout_gravity="center" />
+        android:text="Calculate age"
+        android:textAllCaps="false"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:cornerRadius="12dp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="24dp"/>
 </LinearLayout>
