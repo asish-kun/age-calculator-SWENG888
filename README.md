@@ -19,16 +19,15 @@ The **Age Calculator App** is an Android application that calculates a user's ag
   - The calculated age is displayed via a `Toast` notification.
 
 ## Screenshots
+**General User Flow:**
+<img width="299" alt="Screenshot 2024-09-22 at 14 12 21" src="https://github.com/user-attachments/assets/20f7d19e-c962-495d-94a9-d611f99f8831">
 
-*(Add screenshots of your app here)*
---
+**Empty Fields:**
 <img width="317" alt="Screenshot 2024-09-22 at 14 14 54" src="https://github.com/user-attachments/assets/88ef3522-37ff-4daa-8183-b626ceb34c76">
 
---
+**Incorrect Format:**
 <img width="327" alt="Screenshot 2024-09-22 at 14 14 10" src="https://github.com/user-attachments/assets/4338a128-8f3d-4fa8-8078-ee7e611b734e">
 
---
-<img width="299" alt="Screenshot 2024-09-22 at 14 12 21" src="https://github.com/user-attachments/assets/20f7d19e-c962-495d-94a9-d611f99f8831">
 
 ## Installation and Setup
 
