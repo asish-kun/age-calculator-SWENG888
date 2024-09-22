@@ -20,13 +20,13 @@ The **Age Calculator App** is an Android application that calculates a user's ag
 
 ## Screenshots
 **General User Flow:**
-<img width="299" alt="Screenshot 2024-09-22 at 14 12 21" src="https://github.com/user-attachments/assets/20f7d19e-c962-495d-94a9-d611f99f8831">
+<img width="318" alt="Screenshot 2024-09-22 at 14 45 55" src="https://github.com/user-attachments/assets/21f4c2e1-2cce-4e02-abeb-3a33d3b03dea">
 
 **Empty Fields:**
-<img width="317" alt="Screenshot 2024-09-22 at 14 14 54" src="https://github.com/user-attachments/assets/88ef3522-37ff-4daa-8183-b626ceb34c76">
+<img width="332" alt="Screenshot 2024-09-22 at 14 46 33" src="https://github.com/user-attachments/assets/64523131-3ccd-4509-9bb2-1e61122e4c23">
 
 **Incorrect Format:**
-<img width="327" alt="Screenshot 2024-09-22 at 14 14 10" src="https://github.com/user-attachments/assets/4338a128-8f3d-4fa8-8078-ee7e611b734e">
+<img width="330" alt="Screenshot 2024-09-22 at 14 46 14" src="https://github.com/user-attachments/assets/8ff1bafe-ffad-4781-acf6-6fc478f40d74">
 
 
 ## Installation and Setup
